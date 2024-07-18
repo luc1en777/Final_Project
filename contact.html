@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="contactstyle.css">
+
+    </head>
+    <body>
+        <form>
+            <img src="IMAGES/potatoC.png" alt="Logo">
+            <h2>Contact Us</h2>
+            <div class="inputBox">
+                
+                <label>Main Branch: 09567130446</label>
+            </div>
+            <div class="inputBox">
+               
+                <label>Branch 2: 09345061425</label>
+            </div>
+            <div class="inputBox">
+            
+                <label>Branch 3: 09566345166</label>
+            </div>
+            <a href="index.html">Home</a>
+        </form>
+    </body>
+</html>
+
+<script>
+    let label=document.querySelectorAll('label').
+    forEach(label => {
+        label.innerHTML=label.innerText.split('').map
+        ((letters, i) => `<span style="transition-delay:
+         ${i*50}ms"> ${letters} </span>`).join('');
+    });
+</script>

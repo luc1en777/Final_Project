@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
+
+    </head>
+    <body>
+        <form>
+            <img src="IMAGES/potatoC.png" alt="Logo">
+            <h2>Portfolio</h2>
+            <p>Potato Corner opened its first outlet in the Philippines in October 1992 and began franchising the year after. Today, it has grown from small carts into in-line stores found in almost every corner of the world – in malls, schools, hospitals, bus stations, amusement parks, and even tourist destinations in multiple countries. In every corner of the world, someone wants Potato Corner.<br><br>
+             Throughout the years, Potato Corner has garnered numerous awards, mostly recognizing its excellent business model and well-loved brand. It has received the Franchise Excellence Hall of Fame Award by the Philippine Franchise Association and Department of Trade and Industry in 2003, won Best Franchise of the Year on three consecutive years, and most recently, bagged the Global Franchise Award recognized by the same institution. Potato Corner is truly an iconic brand for kids and kids-at-heart and a distinguished business venture for entrepreneurs.</p>
+            <a href="index.html">Home</a>
+        </form>
+    </body>
+</html>
+
+<script>
+    let label=document.querySelectorAll('label').
+    forEach(label => {
+        label.innerHTML=label.innerText.split('').map
+        ((letters, i) => `<span style="transition-delay:
+         ${i*50}ms"> ${letters} </span>`).join('');
+    });
+</script>

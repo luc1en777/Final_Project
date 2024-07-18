@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="reviewsstyle.css">
+
+    </head>
+    <body>
+        <form>
+            <img src="IMAGES/potatoC.png" alt="Logo">
+            <h2>Reviews from our valued customers</h2>
+            <dl>
+                <dt style="font-family:Lucida Handwriting; color: yellow;">Dylan F.</dt>
+                <dd style="font-family:Lucida Handwriting; color: white;">"Best french fries I've ever had in the Philippines!"</dd>
+                <dt style="font-family:Lucida Handwriting; color: yellow;">Claude R.</dt>
+                <dd style="font-family:Lucida Handwriting; color: white;">"Affordable prices and big servings; can't ask for anything better."</dd>
+                <dt style="font-family:Lucida Handwriting; color: yellow;">Christal I.</dt>
+                <dd style="font-family:Lucida Handwriting; color: white;">"I'm a french fries enthusiast and this is the best to get them."</dd>
+                <dt style="font-family:Lucida Handwriting; color: yellow;">Jamilla O.</dt>
+                <dd style="font-family:Lucida Handwriting; color: white;">"I loved it so much I bought 3 orders to go!"</dd>
+              </dl>
+            <a href="index.html">Home</a>
+        </form>
+    </body>
+</html>
+
+<script>
+    let label=document.querySelectorAll('label').
+    forEach(label => {
+        label.innerHTML=label.innerText.split('').map
+        ((letters, i) => `<span style="transition-delay:
+         ${i*50}ms"> ${letters} </span>`).join('');
+    });
+</script>

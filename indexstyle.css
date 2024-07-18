@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Layout Styles */
+header {
+    background: green;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav.navbar {
+    margin-top: 10px;
+}
+
+nav.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+    font-family: "Lucida Handwriting";
+}
+
+nav.navbar a:hover {
+    background: yellowgreen;
+}
+
+.sidebar {
+    background: yellowgreen;
+    padding: 15px;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Lucida Handwriting";
+}
+
+.sidebar a:hover {
+    background: green;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-item {
+    flex: 1 1 calc(20% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-item p {
+    margin-top: 5px;
+}
+
+.text-content {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.text-content h1 {
+    margin-top: 20px;
+    font-family: "Brush Script MT";
+    text-align: center;
+    color: gray;
+}
+
+.text-content h2 {
+    margin-top: 20px;
+    font-family: "Brush Script MT";
+    font-style: italic;
+    text-align: center;
+    color: gray;
+}
+
+footer {
+    background: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-logo img {
+    max-width: 100px;
+}
+
+footer .footer-info {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

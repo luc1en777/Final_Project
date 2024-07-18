@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="aboutstyle.css">
+
+    </head>
+    <body>
+        <form>
+            <img src="IMAGES/potatoC.png" alt="Logo">
+            <h2>About Us</h2>
+            <P>Anywhere you go in the Philippines, you’re bound to find a bright-green kiosk, with a smiling spud next to the now-familiar name: Potato Corner. Today, this food cart has become the top-of- mind entry point for budding entrepreneurs and has seen its business expand in the Philippines and overseas. Dubbed as the World’s Best Flavored Fries, Potato Corner has been a leading brand in the food industry for OVER 25 years.
+                Potato Corner opened its first outlet in the Philippines in October 1992 and began franchising the year after. Today, it has grown from small carts into in-line stores found in almost every corner of the world – in malls, schools, hospitals, bus stations, amusement parks, and even tourist destinations in multiple countries. In every corner of the world, someone wants Potato Corner.</P>
+            <a href="index.html">Home</a>
+        </form>
+    </body>
+</html>
+
+<script>
+    let label=document.querySelectorAll('label').
+    forEach(label => {
+        label.innerHTML=label.innerText.split('').map
+        ((letters, i) => `<span style="transition-delay:
+         ${i*50}ms"> ${letters} </span>`).join('');
+    });
+</script>
